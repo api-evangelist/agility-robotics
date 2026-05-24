@@ -1,0 +1,79 @@
+aid: agility-robotics
+name: Agility Robotics
+description: >-
+  Agility Robotics is a Salem, Oregon humanoid robotics company building
+  industrial bipedal robots for warehouse and factory automation. Founded
+  in 2015 as a spin-out of Oregon State University's Dynamic Robotics
+  Laboratory, its flagship product is Digit — described as the first
+  humanoid robot in commercial production deployment — and Arc, the
+  cloud-based automation platform that operates Digit fleets, provides
+  real-time visibility, manages task assignments, and connects Digit to
+  existing warehouse automation including AMRs, WMS, and WES systems.
+  Digit has commercial deployments and pilots with Amazon, GXO Logistics,
+  Schaeffler, Toyota Motor Manufacturing Canada, and Mercado Libre, with
+  an expanded NVIDIA partnership for foundation-model and simulation
+  tooling. Agility operates RoboFab, a humanoid robot factory in Salem,
+  OR with capacity to produce 10,000 robots annually. Digit has surpassed
+  100,000 totes moved in commercial deployment at a single Georgia
+  facility. Agility Robotics does not publish a public developer API,
+  SDK, or open-source release for Digit or Arc; integration is performed
+  by Agility's solutions team and partners through a gated low-level
+  JSON-over-WebSocket API and pysdk delivered with the robot. The
+  company's public GitHub org primarily contains forks of infrastructure
+  tooling (JFrog, Bazel, Fluent Bit, Kubernetes Cluster API) plus an
+  archived documentation repo for the earlier Cassie research platform.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Humanoid Robots
+  - Bipedal Robots
+  - Industrial Automation
+  - Warehouse Automation
+  - Logistics
+  - Embodied AI
+  - Fleet Management
+  - Cloud Platform
+  - Digit
+  - Arc
+  - Manufacturing
+  - Hardware
+url: https://raw.githubusercontent.com/api-evangelist/agility-robotics/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+x-tier: 3
+x-tier-reason: no-apis
+apis: []
+common:
+  - type: Website
+    url: https://www.agilityrobotics.com
+  - type: Product
+    url: https://www.agilityrobotics.com/solutions
+  - type: Sales
+    url: https://www.agilityrobotics.com/sales
+  - type: Company
+    url: https://www.agilityrobotics.com/company
+  - type: Resources
+    url: https://www.agilityrobotics.com/resources
+  - type: Press
+    url: https://www.agilityrobotics.com/latest-press
+  - type: Careers
+    url: https://www.agilityrobotics.com/careers
+  - type: Contact
+    url: https://www.agilityrobotics.com/general
+  - type: GitHub
+    url: https://github.com/agilityrobotics
+  - type: Twitter
+    url: https://x.com/agilityrobotics
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/agilityrobotics
+  - type: YouTube
+    url: https://www.youtube.com/agilityrobotics
+  - type: Instagram
+    url: https://www.instagram.com/agility_robotics
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
