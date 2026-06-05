@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "gr": "http://purl.org/goodrelations/v1#",
+    "robot": "https://www.agilityrobotics.com/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "AgilityRobotics": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "description": "schema:description",
+    "foundingDate": "schema:foundingDate",
+    "location": "schema:location",
+    "industry": "schema:industry",
+    "parentOrganization": {
+      "@id": "schema:parentOrganization",
+      "@type": "@id"
+    },
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id"
+    },
+
+    "Digit": {
+      "@id": "robot:Digit",
+      "@type": "@id",
+      "@context": {
+        "productType": "schema:Product",
+        "category": "schema:category",
+        "manufacturer": {
+          "@id": "schema:manufacturer",
+          "@type": "@id"
+        },
+        "applicationArea": "robot:applicationArea",
+        "locomotionType": "robot:locomotionType",
+        "payloadCapacity": "robot:payloadCapacity",
+        "deploymentEnvironment": "robot:deploymentEnvironment"
+      }
+    },
+
+    "Arc": {
+      "@id": "robot:Arc",
+      "@type": "@id",
+      "@context": {
+        "platformType": "schema:SoftwareApplication",
+        "feature": "schema:featureList",
+        "integrates": "robot:integrates",
+        "manages": "robot:manages"
+      }
+    },
+
+    "RobotFleet": {
+      "@id": "robot:RobotFleet",
+      "@context": {
+        "fleetSize": "robot:fleetSize",
+        "fleetStatus": "robot:fleetStatus",
+        "assignedTasks": "robot:assignedTasks",
+        "location": "schema:location",
+        "operator": "schema:agent"
+      }
+    },
+
+    "Task": {
+      "@id": "robot:Task",
+      "@context": {
+        "taskType": "robot:taskType",
+        "taskStatus": "robot:taskStatus",
+        "assignedRobot": "robot:assignedRobot",
+        "priority": "robot:priority",
+        "startTime": {
+          "@id": "schema:startDate",
+          "@type": "xsd:dateTime"
+        },
+        "endTime": {
+          "@id": "schema:endDate",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "WarehouseAutomation": {
+      "@id": "robot:WarehouseAutomation",
+      "@context": {
+        "facility": "schema:Place",
+        "wmsIntegration": "robot:wmsIntegration",
+        "wesIntegration": "robot:wesIntegration",
+        "amrIntegration": "robot:amrIntegration",
+        "throughput": "robot:throughput"
+      }
+    },
+
+    "RoboFab": {
+      "@id": "robot:RoboFab",
+      "@context": {
+        "facilityType": "schema:Place",
+        "annualCapacity": "robot:annualCapacity",
+        "location": "schema:location"
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+vocabulary:
+  name: Agility Robotics Vocabulary
+  description: >-
+    Key terms and concepts for Agility Robotics, a humanoid robotics company
+    building industrial bipedal robots and cloud-based fleet automation software
+    for warehouse and factory environments.
+  version: "1.0"
+  terms:
+    - term: Digit
+      definition: >-
+        Agility Robotics' flagship commercially deployed humanoid bipedal robot,
+        designed for warehouse and factory automation tasks such as tote handling
+        and item transport. The first humanoid robot in commercial production
+        deployment.
+      tags:
+        - robotics
+        - hardware
+        - humanoid
+        - bipedal
+
+    - term: Arc
+      definition: >-
+        Agility Robotics' cloud-based automation platform that operates Digit
+        robot fleets, provides real-time fleet visibility, manages task
+        assignments, and integrates with existing warehouse systems including
+        AMRs, WMS, and WES.
+      tags:
+        - software
+        - cloud-platform
+        - fleet-management
+        - automation
+
+    - term: Humanoid Robot
+      definition: >-
+        A robot with a body shape and locomotion pattern resembling a human,
+        including bipedal walking. Designed to operate in environments built for
+        humans without requiring facility modification.
+      tags:
+        - robotics
+        - hardware
+        - embodied-ai
+
+    - term: Bipedal Locomotion
+      definition: >-
+        Two-legged walking motion enabling a robot to navigate stairs, ramps,
+        tight aisles, and irregular terrain found in industrial and warehouse
+        environments.
+      tags:
+        - robotics
+        - locomotion
+        - mobility
+
+    - term: Fleet Management
+      definition: >-
+        Centralized orchestration, monitoring, and task assignment for multiple
+        robots operating concurrently within one or more facilities, typically
+        via a cloud platform such as Arc.
+      tags:
+        - fleet-management
+        - operations
+        - cloud-platform
+
+    - term: WMS Integration
+      definition: >-
+        Connection between the Arc platform and a Warehouse Management System
+        (WMS) to receive orders, confirm completions, and synchronize inventory
+        data, enabling robots to act on real-time warehouse directives.
+      tags:
+        - integration
+        - warehouse
+        - wms
+
+    - term: WES Integration
+      definition: >-
+        Connection between the Arc platform and a Warehouse Execution System
+        (WES) for real-time task orchestration and coordination between humanoid
+        robots and other automated material-handling equipment.
+      tags:
+        - integration
+        - warehouse
+        - wes
+
+    - term: AMR
+      definition: >-
+        Autonomous Mobile Robot — a class of wheeled or tracked robots that
+        navigate warehouses independently. Digit and Arc are designed to
+        interoperate with AMR fleets as part of a broader warehouse automation
+        ecosystem.
+      tags:
+        - robotics
+        - amr
+        - warehouse-automation
+
+    - term: RoboFab
+      definition: >-
+        Agility Robotics' purpose-built humanoid robot manufacturing facility
+        located in Salem, Oregon, with an annual production capacity of 10,000
+        Digit units.
+      tags:
+        - manufacturing
+        - facility
+        - hardware
+
+    - term: Tote Handling
+      definition: >-
+        The primary commercial task performed by Digit — picking up, transporting,
+        and placing standardized warehouse storage totes as part of goods-to-person
+        or sortation workflows.
+      tags:
+        - operations
+        - warehouse-automation
+        - task
+
+    - term: Embodied AI
+      definition: >-
+        Artificial intelligence implemented in a physical robot body that
+        perceives and acts in the real world. Agility partners with NVIDIA to
+        develop foundation models and simulation tooling for embodied AI in Digit.
+      tags:
+        - ai
+        - machine-learning
+        - robotics
+
+    - term: Gated API
+      definition: >-
+        Agility Robotics delivers a low-level JSON-over-WebSocket API and a
+        Python SDK (pysdk) with each Digit unit. Access is gated — available
+        only to qualified integration partners and customers through Agility's
+        solutions team, not via a public developer portal.
+      tags:
+        - api
+        - integration
+        - access-control
+
+    - term: Commercial Deployment
+      definition: >-
+        Active production use of Digit robots by enterprise customers (Amazon,
+        GXO Logistics, Schaeffler, Toyota Motor Manufacturing Canada, Mercado
+        Libre) performing real warehouse tasks at scale rather than in pilot or
+        research settings.
+      tags:
+        - deployment
+        - operations
+        - enterprise
