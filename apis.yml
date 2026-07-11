@@ -48,6 +48,8 @@ x-tier: 3
 x-tier-reason: no-apis
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/agility-robotics-domain-security.yml
   - type: Website
     url: https://www.agilityrobotics.com
   - type: Product
