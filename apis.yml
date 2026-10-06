@@ -64,12 +64,14 @@ tags:
   - Hardware
 url: https://raw.githubusercontent.com/api-evangelist/agility-robotics/refs/heads/main/apis.yml
 created: '2026-05-24'
-modified: '2026-05-24'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 x-tier: 3
 x-tier-reason: no-apis
 apis: []
 common:
+  - url: https://www.agilityrobotics.com/press
+    type: Blog
   - type: DomainSecurity
     url: security/agility-robotics-domain-security.yml
   - type: Website
